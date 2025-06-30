@@ -1,0 +1,86 @@
+.process-flow-container {
+    max-width: 100%;
+}
+
+.process-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    /* max-width: 10; */
+    /* margin: 0 auto; */
+    position: relative;
+}
+
+/* Steps Container */
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    /* margin: 2rem; */
+    padding: 2rem;
+}
+
+.step-image {
+    max-width: 180px;
+    /* position: absolute; */
+    /* left: 50%; */
+    height: auto;
+}
+
+/* Connectors Overlay */
+.connectors-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.connector-line-cnt {
+
+    flex: 1;
+    height: 2.5rem;
+    /* background-color: red; */
+    /* margin-top: 2rem; */
+}
+.step-image-cnt {
+    /* flex: 1; */
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* background-color: red; */
+}
+
+.connector-line {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+}
+
+/* Vector 38 - Connector 1 */
+.connector-1 {
+    margin-top: 1.75rem;
+}
+
+/* Vector 37 - Connector 2 */
+.connector-2 {
+    margin-top: 4rem;
+}
+
+.badge-container {
+    display: flex;
+    justify-content: center;
+}
+
+.green-badge {
+    max-width: 300px;
+    margin-top: 24px;
+    height: auto;
+}
+
